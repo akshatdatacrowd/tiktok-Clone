@@ -1,13 +1,168 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+a,
+a:hover,
+a:visited,
+a:active,
+a:link,
+Link {
+  color: inherit;
+  text-decoration: none;
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "montserrat-bold", serif;
+}
+html {
+  background-color: black;
+  color: #f1f1f1;
+}
+.fyp {
+  justify-content: center;
+  display: flex;
+}
+#LikeBtn:hover {
+  transform: scale(0.8);
+}
+#CommentsBtn:hover {
+  transform: scale(0.8);
+}
+#ShareBtn:hover {
+  transform: scale(0.8);
+}
+#LikeBtn:active {
+  transform: scale(0.6);
+}
+#CommentsBtn:active {
+  transform: scale(0.6);
+}
+#ShareBtn:active {
+  transform: scale(0.6);
+}
+.searchIcon {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 2vh;
+  padding-right: 2vw;
+  width: 7vw;
+  text-align: center;
+}
+.searchIcon:hover {
+  color: white;
+  fill: chocolate;
+  transform: scale(0.8);
+}
+.searchIcon:active {
+  transform: scale(0.6);
+}
+#myVideo {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  font-size: xx-large;
+}
+.contenttop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  background: transparent;
+  color: #f1f1f1;
+  width: inherit;
+  display: flex;
+
+  padding-top: 2vh;
+}
+.contentrightside {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  padding-right: 2vw;
+  color: #f1f1f1;
+  width: 7vw;
+  text-align: center;
+  font-size: x-large;
+}
+#PauseId {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  opacity: 0.5;
+}
+.CommentsContainer {
+  position: fixed;
+  top: 30%;
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+  border-top-left-radius: 5vw;
+  border-top-right-radius: 5vw;
+}
+.outsideCommentsContainer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  bottom: 70%;
+  background-color: transparent;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#ctsCloseBtn {
+  float: right;
+  padding-right: 2vw;
+  padding-top: 1vh;
+  cursor: pointer;
+}
+
+#ctsHeaderCount {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding-top: 1vh;
+  padding-left: 4vw;
+}
+
+.CommentContainer {
+  width: 100%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  height: auto;
+  display: flex;
+  margin-left: 1vw;
+}
+.ctUserPic {
+  width: 8%;
+}
+.ctUserPic img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 5vw;
+  width: 5vw;
+  border: #222831 2px solid;
+}
+.ctCenterUserName {
+  color: grey;
+  padding-bottom: 0.5vh;
+}
+.ctCenter {
+  width: 75%;
+}
+.ctText {
+  color: black;
+}
+.cts {
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 65%;
+}
+.ctLikeCt {
+  width: 10%;
+  text-align: center;
+}
+#ctHeart {
+  font-size: 1.5vh;
+  color: grey;
+}
+#ctHeart:active {
+  transform: scale(0.8);
 }
