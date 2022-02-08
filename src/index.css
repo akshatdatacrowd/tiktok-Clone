@@ -131,12 +131,14 @@ html {
 }
 .ctUserPic {
   width: 8%;
+  text-align: right;
+  padding-right: 1vw;
 }
 .ctUserPic img {
   object-fit: cover;
   border-radius: 50%;
-  height: 5vw;
-  width: 5vw;
+  height: 3vw;
+  width: 3vw;
   border: #222831 2px solid;
 }
 .ctCenterUserName {
@@ -158,6 +160,7 @@ html {
 .ctLikeCt {
   width: 10%;
   text-align: center;
+  padding-top: 1vh;
 }
 #ctHeart {
   font-size: 1.5vh;
