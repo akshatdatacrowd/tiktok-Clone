@@ -43,7 +43,7 @@ const Fyp = () => {
       >
         <source
           src={
-            "https://v16-webapp.tiktok.com/38b9c8379df02d6d91b3958a984f656e/62031911/video/tos/maliva/tos-maliva-ve-0068c799-us/a64c9a5930b54427b1a3cd81b9783418/?a=1988&br=3136&bt=1568&cd=0%7C0%7C1%7C0&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=XOQ9-3E7nz7ThOIToDXq&l=2022020819283201022307515225E78321&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=ajczbWQ6Zjx5OjMzZzczNEApaTVkNjg0OWVkN2RlN2ZnNWdzNmwvcjRfY3FgLS1kMS9zczUwLmA2YC0tNjMwYTAvXzM6Yw%3D%3D&vl=&vr="
+            "https://v16-webapp.tiktok.com/9650f8edb1e57b4dc6ba87bc1c170c93/62044740/video/tos/alisg/tos-alisg-pve-0037c001/aa3b05e876f84fc59b615faf2d61978f/?a=1988&br=3604&bt=1802&cd=0%7C0%7C0%7C0&ch=0&cr=0&cs=0&dr=0&ds=3&er=&ft=XOQ9-3E7nz7Th_2UoDXq&l=20220209165901010189050158253D028C&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=amxyNjM6ZjdnOzMzODczNEApNWRnNzQ1NmQ3Nzg0ZzlpNGdeMTAwcjRvLy5gLS1kMS1zc2BfMC1fYi40X2MyL2AuNmI6Yw%3D%3D&vl=&vr="
           }
           type="video/mp4"
         ></source>

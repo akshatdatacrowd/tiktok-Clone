@@ -20,15 +20,6 @@ html {
   justify-content: center;
   display: flex;
 }
-#LikeBtn:hover {
-  transform: scale(0.8);
-}
-#CommentsBtn:hover {
-  transform: scale(0.8);
-}
-#ShareBtn:hover {
-  transform: scale(0.8);
-}
 #LikeBtn:active {
   transform: scale(0.6);
 }
@@ -97,6 +88,8 @@ html {
   background-color: white;
   border-top-left-radius: 5vw;
   border-top-right-radius: 5vw;
+  animation: commentsEntry 0.5s;
+  
 }
 .outsideCommentsContainer {
   position: fixed;
@@ -168,4 +161,23 @@ html {
 }
 #ctHeart:active {
   transform: scale(0.8);
+}
+
+@keyframes commentsEntry {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top :30%;
+    animation-play-state: paused;
+    
+  }
+}
+@keyframes commentsExit {
+  0% {
+    top: 30%;
+  }
+  100% {
+    top :100%;
+  }
 }
